@@ -1,0 +1,52 @@
+@import './Utils/variables/variables';
+@import './Utils/Mixin/mixin';
+@import './Utils/Extends/extends';
+@import './Utils/base/base';
+
+// RESET CSS
+
+
+header {
+    background-color: orange;
+}
+
+header {
+    & .primaryNav {
+        color: $textColor;
+
+        &__a {
+            font-size: 3rem;
+            text-decoration: red underline;
+
+            &--active {
+                text-decoration: underline yellow;
+            }
+        }
+    }
+}
+
+
+.card {
+    &__title {
+        color: yellow;
+    }
+}
+
+.nav__a {
+    text-decoration: none;
+    color: darkblue;
+    font-size: 5rem;
+    background-color: yellow;
+}
+
+.nav__a--active {
+    text-decoration: underline;
+}
+
+.socialNetwork {
+    @extend %flexCards;
+}
+
+.cardsList {
+    @extend %flexCards;
+}

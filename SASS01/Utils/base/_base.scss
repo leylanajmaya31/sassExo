@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  h1 {
+    @include bigTitle(blue);
+    text-decoration: underline grey;
+  }
+  
+  p {
+    color: black;
+  }

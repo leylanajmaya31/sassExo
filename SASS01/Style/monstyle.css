@@ -1,0 +1,53 @@
+.cardsList, .socialNetwork {
+  display: flex;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: arial;
+  color: blue;
+  text-decoration: underline grey;
+}
+
+p {
+  color: black;
+}
+
+header {
+  background-color: orange;
+}
+
+header .primaryNav {
+  color: black;
+}
+header .primaryNav__a {
+  font-size: 3rem;
+  text-decoration: red underline;
+}
+header .primaryNav__a--active {
+  text-decoration: underline yellow;
+}
+
+.card__title {
+  color: yellow;
+}
+
+.nav__a {
+  text-decoration: none;
+  color: darkblue;
+  font-size: 5rem;
+  background-color: yellow;
+}
+
+.nav__a--active {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=monstyle.css.map */

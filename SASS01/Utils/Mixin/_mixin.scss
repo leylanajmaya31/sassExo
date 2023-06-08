@@ -1,0 +1,6 @@
+@mixin bigTitle($colorTitle) {
+    font-size: $bigTitleSize;
+    font-family: $fontBigTitle;
+    color: $colorTitle;
+}
+
